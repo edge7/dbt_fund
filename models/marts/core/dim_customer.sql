@@ -1,4 +1,4 @@
-
+-- modified from gitHub
 with customers as (
     Select * from {{ref  ('stg_customer') }}
 ),
